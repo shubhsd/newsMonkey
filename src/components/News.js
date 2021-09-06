@@ -35,6 +35,7 @@ export class News extends Component {
             })
         }
     };
+    
 
     handlePrevClick = async () => {
         let url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=535c78739909487d870a90b3ee327e01&page=${this.state.page - 1}&pageSize=20`;
